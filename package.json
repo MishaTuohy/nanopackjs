@@ -1,20 +1,34 @@
 {
   "name": "nanopackjs",
   "version": "1.0.0",
+  "author": "Misha Tuohy",
+  "license": "MIT",
   "description": "A description of nanopackjs",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/mishatuohy/nanopackjs.git"
   },
-  "keywords": [],
-  "author": "Your Name",
-  "license": "ISC",
   "bugs": {
     "url": "https://github.com/mishatuohy/nanopackjs/issues"
   },
-  "homepage": "https://github.com/mishatuohy/nanopackjs#readme"
+  "homepage": "https://github.com/mishatuohy/nanopackjs#readme",
+  "scripts": {
+    "test": "node src/index.js"
+  },
+  "dependencies": {
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-traverse": "^6.26.0",
+    "babylon": "^6.18.0",
+    "eslint": "^8.57.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.29.1"
+  },
+  "devDependencies": {
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.1.3",
+    "prettier": "^3.3.2"
+  }
 }
